@@ -1,0 +1,47 @@
+.videoListItem {
+  cursor: pointer;
+  font-size: "50px";
+}
+
+.videoListItem:hover {
+  background-color: #eee;
+}
+
+.search-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  display: flex;
+}
+
+.search-field {
+  width: 40vw;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  outline: none;
+}
+
+.search-button {
+  background-color: #909290c6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #45a049;
+}
+
+.hide{
+  display: none;
+}
